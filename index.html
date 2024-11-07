@@ -21,7 +21,9 @@
 
             <textarea id="sensorData" class="form-control mb-3" readonly
                 placeholder="Dados do sensor aparecerão aqui..."></textarea>
-            <button id="startMonitoramento" class="btn btn-primary">Iniciar Coleta</button>
+            <button id="startMonitoramento" class="btn btn-primary" onclick="iniciarColeta()">Iniciar Coleta</button>
+            <button id="stopMonitoramento" class="btn btn-danger" onclick="pararColeta()" disabled>Parar Coleta</button>
+
         </div>
     </section>
     <footer>
