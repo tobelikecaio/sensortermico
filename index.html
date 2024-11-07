@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Umidade e Temperatura</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container text-center">
+            <h2 class="my-4">Monitoramento de Umidade e Temperatura</h2>
+            <p>Este programa irá realizar a coleta dados de temperatura e umidade do sensor da residência universitária.
+            </p>
+            <p>Clique em "Iniciar Coleta" para monitorar as condições dos cômodos, cada segundo, os dados de umidade e
+                temperatura
+                serão atualizados e listados abaixo.</p>
+
+            <textarea id="sensorData" class="form-control mb-3" readonly
+                placeholder="Dados do sensor aparecerão aqui..."></textarea>
+            <button id="startMonitoramento" class="btn btn-primary">Iniciar Coleta</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 - Residência Universitária</p>
+    </footer>
+    <script src="js/api.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
